@@ -10,7 +10,7 @@ variable "sg-discription"{
 
 variable "inbound-from-port"{
     #type = number
-    default = "Allow all TLS inbound traffic"
+    default = 0
 }
 
 variable "cidr_blocks"{
